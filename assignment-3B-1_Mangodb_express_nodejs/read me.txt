@@ -1,0 +1,37 @@
+install mongo db :- https://www.mongodb.com/try/download/community
+start server;
+cmd(from the folder) : npm install ->> node server.js
+
+install post man software :- https://www.postman.com/downloads/
+post -> http://localhost:3000/api/register
+
+raw -> 
+{
+    "name": "Abhishek",
+    "email": "123@gmail.com",
+    "password":"123456678",
+    "gender": "Male",
+    "branch":"IT"
+}
+
+#getuser
+(get method) 
+link :-http://localhost:3000/api/getuser/khairnar.123@gmail.com
+{
+"name" : 
+"email" :
+}
+#update user
+(put method)
+link :-http://localhost:3000/api/updateuser
+{
+    "name": "Abhi",
+    "email": "123@gmail.com",
+    "password":"12345",
+    "gender": "Male",
+    "branch":"IT"
+}
+# user delete
+(delete method)
+link:- http://localhost:3000/api/deleteuser/123@gmail.com
+
